@@ -1,5 +1,6 @@
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
+
 function Pelicula(props){
     return (
         <Card style={{width: '18rem'}}>

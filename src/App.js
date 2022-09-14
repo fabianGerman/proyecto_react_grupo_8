@@ -2,8 +2,15 @@ import './App.css';
 import Container from 'react-bootstrap/Container'
 import NavBar from './Components/NavBar/NavBar';
 import Header from './Components/Header/Header';
-import Content from './Components/Content/Content';
+import Content from './Components/Content/Content.js';
 import Pelicula from './Components/Pelicula/Pelicula.js';
+import React from "react";
+import{
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from 'react-router-dom';
+
 
 function App() {
   return (
@@ -26,11 +33,17 @@ function App() {
     </div>
     */
    <Container>
-      <Header />
+      <Header /> 
       <NavBar />
-      <Content />
-   </Container>
+      <Router>
+        <Routes>
+          <Route exact path='/' component={Content} ></Route>
+          <Route path='../Content' component={Content} ></Route>
+          <Route path='/Pelicula' component={Pelicula}></Route>
+        </Routes>
+      </Router>
+    </Container>  
   );
-}
+} 
 
 export default App;

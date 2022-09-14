@@ -1,7 +1,37 @@
 [
-    {},
-    {},
-    {},
-    {},
-    {}
+    {
+        "img":"..//img/pelicula_1.jpg",
+        "titulo":"After Amor Infinito",
+        "descripcion": "26 de agosto de 2022 en cines / 1h 35min / Drama, Romántico / Calificación 4/5",
+        "sinopsis": "Sinopsis de After: amor infinito: En la cuarta y última entrega de la serie AFTER, Tessa ya no es la chica dulce era cuando conoció a Hardin. Entiende todas las emociones problemáticas que se esconden bajo el exterior de él, y sabe que es la única que puede calmarlo cuando estalla. Él la necesita, pero ¿ella a lo necesita a él? A medida que salen a la luz más hechos del trágico pasado de Hardin, él se vuelve más oscuro, y empuja con más fuerza a Tessa -y a todos los demás en su vida- a alejarse. Tessa no está segura de poder salvarlo sin sacrificarse a sí misma. ¿Se mantendrán unidos o se separarán para siempre?",
+        "reparto": "Dirigida por Castille Landon, Guion Anna Todd, Reparto Josephine Langford, Hero Fiennes Tiffin, Louise Lombard, Título original After Ever Happy"
+    },
+    {
+        "img":"..//img/pelicula_2.jpg",
+        "titulo":"Asesino sin memoria",
+        "descripcion": "22 de julio de 2022 en cines / 1h 54min / Suspense, Acción / Calificación 3/5",
+        "sinopsis": "Alex, un asesino a sueldo, descubre que se ha convertido en un objetivo después de que se niega a completar un trabajo para una peligrosa organización criminal. Con el sindicato del crimen y el FBI persiguiéndolo, Alex tiene las habilidades para mantenerse a la vanguardia, excepto por una cosa: está luchando con una pérdida de memoria severa que afecta todos sus movimientos. Alex debe cuestionar cada una de sus acciones y en quién puede confiar en última instancia.",
+        "reparto": "Dirigida por Martin Campbell, Guion Jef Geeraerts, Dario Scardapane, Reparto Liam Neeson, Guy Pearce, Taj Atwal, Título original Memory"
+    },
+    {
+        "img":"..//img/pelicula_3.jpg",
+        "titulo":"El Conjuro 3",
+        "descripcion": "4 de junio de 2021 en cines / 1h 52min / Terror / Calificación 3.5/5",
+        "sinopsis": "Los investigadores paranormales Ed y Lorraine Warren se encuentran con lo que se convertiría en uno de los casos más sensacionales de sus archivos. La lucha por el alma de un niño los lleva más allá de todo lo que habían visto antes, para marcar la primera vez en la historia de los Estados Unidos que un sospechoso de asesinato reclamaría posesión demoníaca como defensa.",
+        "reparto": "Dirigida por Michael Chaves, Guion David Leslie Johnson-McGoldrick, James Wan, Reparto Patrick Wilson, Vera Farmiga, Ruairi O'Connor, Título original The Conjuring: The Devil Made Me Do It"
+    },
+    {
+        "img":"..//img/pelicula_4.jpg",
+        "titulo":"Logan",
+        "descripcion": "3 de marzo de 2017 en cines / 2h 17min / Acción, Ciencia ficción / Calificación 3.5/5",
+        "sinopsis": "Han pasado los años y los mutantes están en declive. Logan, débil y cansado, vive alejado de todos hasta que acepta una última misión de Charles Xavier: la de proteger a una joven especial, de nombre Laura Kinney pero conocida como X-23, la última esperanza de la raza mutante.",
+        "reparto": "Dirigida por James Mangold, Guion James Mangold, James Mangold, Reparto Hugh Jackman, Patrick Stewart, Dafne Keen"
+    },
+    {
+        "img":"..//img/pelicula_5.jpg",
+        "titulo":"Piratas del Caribe: La Venganza de Salazar",
+        "descripción": "25 de mayo de 2017 en cines / 2h 09min / Aventura, Fantasía, Acción / Calificación 4/5",
+        "sinopsis": "El capitán Salazar comanda un ejército de piratas fantasma con el que pretende exterminar a todos los piratas vivos de la Tierra, pero Jack Sparrow se opone a él y busca el Tridente de Poseidón, un objeto mágico que permite a quien lo posee controlar los mares, la única esperanza para detener a Salazar.",
+        "reparto": "Dirigida por Joachim Rønning, Espen Sandberg, Guion Jeff Nathanson, Jeff Nathanson, Reparto Johnny Depp, Javier Bardem, Brenton Thwaites, Título original Pirates of the Caribbean: Dead Men Tell No Tales"
+    }
 ]
