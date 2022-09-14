@@ -1,0 +1,76 @@
+/*selector descendente
+afecta a todos los selectores que se declaren
+*/
+/*
+atributo:
+    estilo de lista: ninguno
+    display: flex
+    largo: 200
+    posicion: relativo
+*/
+nav ul{
+    list-style: none;
+    display: flex;
+    width: 200px;
+    position: relative;
+    padding: 7px 15px 7px 15px; 
+}
+
+nav ul ul {    
+    position: absolute;
+    width: 70px; 
+    top: auto;
+    left: -99999px;
+    z-index: 999;
+    
+}
+
+  li:hover ul{
+    left: auto;
+    display: block;
+  }
+
+
+/*
+atributos:
+    color: negro
+    largo: 100
+    display:flex
+    decoracion de texto: ninguno
+    fondo: combinacion
+    color: combinacion
+    espacio: 7 15 7 15
+    tiempo de respuesta: 0.3s salida rapida
+    borde derecho: forma ovalada de 10
+    borde de boton: radio de 10
+    borde izquierdo: forma ovalada de 10
+    sombra: 2 2 4 color azul
+*/
+li a{
+    color: black;
+    width: 100px;
+    display: flex;
+    text-decoration: none;
+    background: #836c56;
+    color: black;
+    padding: 10px 20px 10px 20px;
+    /* esta configuracion de los botones solo sera visible para el navegador chrome*/
+    transition: all 0.3s ease-out;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 2px 2px 4px #0e169b;
+}
+
+/* 
+atributo
+    fondo:amarillo
+    color celeste
+    espacio 7 15 7 30
+*/
+li a:hover {
+    background: #faef77;
+    color: #67a5cd;
+    padding: 7px 15px 7px 30px;
+ }

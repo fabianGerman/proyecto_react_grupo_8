@@ -1,0 +1,71 @@
+/* 1° paso
+la clase carousel define las dimensiones y posicion del slider
+*/
+.carousel{
+	width: 100%;
+	height: 500px;
+	margin-top: 10px;
+	float: left;
+}
+
+/* 2° paso
+se definenen los atributos para todos los elementos
+que conformen el carousel, tamaño, posicion, borde, desplazamiento
+*/
+.carousel-slider{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	list-style: none;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	border-radius: 50px;
+}
+
+/*3° paso
+se personaliza las dimensiones de cada elemento del carousel
+*/
+.carousel-slider img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: all 0.5s;
+}
+
+/*4° paso
+se personalizan los input y label que seran utilizados para 
+el desplazamiento del carousel
+*/
+.carousel-slider input[type="radio"]{
+	display: none;
+}
+
+.carousel-slider input[type="radio"]:checked ~ img {/* esta seccion determina que tan visible sera la imagen*/
+	opacity: 1;
+}
+
+.carousel-slider input[type="radio"] + label { /*esta seecion mostrar los aspecto de los botones*/
+	position: relative;
+	z-index: 50;
+	margin: 10px;
+	display: block;
+	width: 18px;
+	height: 18px;
+	background: white;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.carousel-slider input[type="radio"]:checked + label {/*cuando un boton sea elegido su color cambiara a gris*/
+	background: grey;
+	border: 1px solid black;
+}
+
+.img1{
+    background-image: url(../img/palomitas.png);
+}

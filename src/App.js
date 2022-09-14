@@ -1,8 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import Container from 'react-bootstrap/Container'
+import NavBar from './Components/NavBar/NavBar';
+import Header from './Components/Header/Header';
+import Content from './Components/Content/Content';
+import Pelicula from './Components/Pelicula/Pelicula.js';
 
 function App() {
   return (
+    /*
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -19,6 +24,12 @@ function App() {
         </a>
       </header>
     </div>
+    */
+   <Container>
+      <Header />
+      <NavBar />
+      <Content />
+   </Container>
   );
 }
 
