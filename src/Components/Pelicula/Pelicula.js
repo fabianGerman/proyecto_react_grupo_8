@@ -6,7 +6,7 @@ const Pelicula =(props) =>{
     return (
         
         <Card style={{width: '100%'}}>
-            <Card.Img variant="top" src={props.img}/>
+            <Card.Img variant="top" style={{width: '20%'}} src={props.img}/>
             <Card.Body>
                 <Card.Title>{props.titulo}</Card.Title>
                 <Card.Text>
