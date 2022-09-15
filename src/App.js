@@ -4,6 +4,7 @@ import NavBar from './Components/NavBar/NavBar';
 import Header from './Components/Header/Header';
 import Content from './Components/Content/Content.js';
 import Pelicula from './Components/Pelicula/Pelicula.js';
+import peliculas from './pelicula.json';
 import React from "react";
 import{
   BrowserRouter as Router,
@@ -14,34 +15,24 @@ import{
 
 function App() {
   return (
-    /*
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-    */
    <Container>
       <Header /> 
-      <NavBar />
       <Router>
+      <NavBar />
         <Routes>
-          <Route exact path='/' component={Content} ></Route>
-          <Route path='../Content' component={Content} ></Route>
-          <Route path='/Pelicula' component={Pelicula}></Route>
+          <Route path='/' element={<Content />} ></Route>
+          <Route path='/peliculas' element={<Pelicula />}></Route>
         </Routes>
       </Router>
+       
+      {peliculas.map(peli => 
+        <Pelicula
+            img = {peli.img}
+            titulo = {peli.titulo}
+            descripcion = {peli.descripcion}
+            sinopsis = {peli.sinopsis}
+            reparto = {peli.reparto}
+            ></Pelicula>)}
     </Container>  
   );
 } 

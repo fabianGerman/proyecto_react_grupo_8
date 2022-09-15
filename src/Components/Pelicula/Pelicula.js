@@ -1,16 +1,23 @@
 import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
-
-function Pelicula(props){
+import Img from 'react-bootstrap/Image'
+import peliculas from '../../pelicula.json';
+const Pelicula =(props) =>{
+    
     return (
-        <Card style={{width: '18rem'}}>
+        
+        <Card style={{width: '100%'}}>
             <Card.Img variant="top" src={props.img}/>
             <Card.Body>
                 <Card.Title>{props.titulo}</Card.Title>
                 <Card.Text>
                     {props.descripcion}
                 </Card.Text>
-                <Button variant="primary">ver mas...</Button>
+                <Card.Text>
+                    {props.sinopsis}
+                </Card.Text>
+                <Card.Text>
+                    {props.reparto}
+                </Card.Text>
             </Card.Body>      
         </Card>
     );
