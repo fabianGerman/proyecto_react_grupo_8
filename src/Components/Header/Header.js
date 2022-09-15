@@ -2,6 +2,7 @@ import React from "react";
 import './style.css';
 import AnnuarLogo from '../img/annuarlogo.png';
 import Palomitas from '../img/palomitas.png';
+
 class Header extends React.Component{
     render(){
         return <header>
